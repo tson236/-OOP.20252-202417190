@@ -1,7 +1,8 @@
 public class BankAccount {
     private String accountNumber;
     private String ownerName;
-    private double balance;
+    private double balance;git add HW04/
+git commit -m "init: Initialize HW04 folder and BankAccount class properties"
     private static final double MIN_BALANCE = 50000.0;
     private static final double TRANSFER_FEE_RATE = 0.02;
     public BankAccount(String accountNumber, String ownerName, double initialBalance) {
